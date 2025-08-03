@@ -29,3 +29,7 @@ Contains:
 * PG39WCDM_HDR_Tonemaped_Gamma_HDR.cube - HDR correction LUT
 * PG39WCDM_LUT-s32.png - 32x 3D correction LUT - PNG
 * PG39WCDM_LUT-s32.dds - 32x 3D correction LUT - DDS (bc7, no mips)
+
+The PNG LUT can be used with Reshades 'LUT' basic LUT shader if you wanted to correct only a single SDR game.
+Either Apply the LUT at system level, or in an application. If you apply it twice you will over-correct.
+The .cube files are compatible with professional color pipelines and solutions. If you know how to use them, have fun. If not, you're not missing out on anything crucial. They serve niche needs.
