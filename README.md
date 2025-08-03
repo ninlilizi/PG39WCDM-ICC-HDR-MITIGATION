@@ -11,7 +11,7 @@ The ICC profile contains a custom LUT that adjust the gamma curve and combats de
 * For the most punch. set Digital Vibrance to 55%.
 * values outside of that range will mess up the color accuracy across a bunch of luminance levels, so treat that as your safe range.
 
-For accuracy, set Render Intent to Absolute Colorimetric.
+For accuracy, set Rendering Intent to Absolute Colorimetric.
 
 Additionally:
 
