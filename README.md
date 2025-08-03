@@ -7,6 +7,10 @@ One cavaet, is the LUT that performs most of the lifting doesn't apply autotical
 
 The ICC profile contains a custom LUT that adjust the gamma curve and combats desaturation in low luminance levels through progressive gamut expansion.
 
+* For color accuracy, set Digital Vibrance to 48%.
+* For the most punch. set Digital Vibrance to 55%.
+* values outside of that range will mess up the color accuracy across a bunch of luminance levels, so treat that as your safe range.
+
 Additionally:
 
 * Customized gamma curve to mitigate the displays effective gamma being closer to 1.8 than the expected 2.2.
@@ -18,8 +22,6 @@ Additionally:
 * Output custom .cube 3D LUTs with maximum number of steps to allow color accurate correction in professional softwares.
 
 The profiles were generated using a customized fork of ColorControl. If you wish to make your own iteration or examine the changes put into this custom profile, it is here: https://github.com/ninlilizi/ColorControl-PG39WCDM
-
-
 
 Contains:
 * PG39WCDM_HDR_Tonemaped_Gamma.icm - ICC profile
