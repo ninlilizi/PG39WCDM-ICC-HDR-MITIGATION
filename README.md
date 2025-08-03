@@ -25,8 +25,8 @@ The profiles were generated using a customized fork of ColorControl. If you wish
 
 Contains:
 * PG39WCDM_HDR_Tonemaped_Gamma.icm - ICC profile
-* PG39WCDM_HDR_Tonemaped_Gamma_SDR.cube - SDR correction LUT
-* PG39WCDM_HDR_Tonemaped_Gamma_HDR.cube - HDR correction LUT
+* PG39WCDM_HDR_Tonemaped_Gamma_SDR.cube - SDR correction LUT (Rec.709 primaries)
+* PG39WCDM_HDR_Tonemaped_Gamma_HDR.cube - HDR correction LUT (Rec.2020 primaries)
 * PG39WCDM_LUT-s32.png - 32x 3D correction LUT - PNG
 * PG39WCDM_LUT-s32.dds - 32x 3D correction LUT - DDS (bc7, no mips)
 
