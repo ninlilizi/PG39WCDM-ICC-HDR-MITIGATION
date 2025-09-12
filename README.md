@@ -7,12 +7,8 @@ One cavaet, is the LUT that performs most of the lifting doesn't apply automatic
 
 The ICC profile contains a custom LUT that adjust the gamma curve and combats desaturation in low luminance levels through progressive gamut expansion.
 
-* For color accuracy, set Digital Vibrance to 48%.
-* For the most punch. set Digital Vibrance to 55%.
-* For a balanced trade-off, set Digital Vibrance to 52%.
-* values outside of that range will mess up the color accuracy across a bunch of luminance levels, so treat that as your safe range.
+* Set Digital Vibrance to 51%. We loose colour accuracy above this.
 
-For accuracy, set Rendering Intent to Absolute Colorimetric.
 
 Additionally:
 
@@ -20,7 +16,7 @@ Additionally:
 * Upgrade profile version to MHC3 to support HDR specific parameters.
 * Default values set to optimal for the monitor.
 * Fixed MaxFALL to 265.
-* MaxCLL to 1000, MinCLL 0.0007.
+* MaxCLL to 1300, MinCLL 0.0007.
 * Saturation boost to 15%.
 * Output custom .cube 3D LUTs with maximum number of steps to allow color accurate correction in professional softwares.
 
@@ -30,7 +26,9 @@ Contains:
 * PG39WCDM_HDR_Tonemaped_Gamma.icm - ICC profile
 * PG39WCDM_HDR_Tonemaped_Gamma_SDR.cube - SDR correction LUT (Rec.709 primaries)
 * PG39WCDM_HDR_Tonemaped_Gamma_HDR.cube - HDR correction LUT (Rec.2020 primaries)
+* PG39WCDM_LUT-s16.png - 16x 3D correction LUT - PNG
 * PG39WCDM_LUT-s32.png - 32x 3D correction LUT - PNG
+* PG39WCDM_LUT-s16.dds - 16x 3D correction LUT - DDS (bc7, no mips)
 * PG39WCDM_LUT-s32.dds - 32x 3D correction LUT - DDS (bc7, no mips)
 
 The PNG LUT can be used with Reshades 'LUT' basic LUT shader if you wanted to correct only a single SDR game.

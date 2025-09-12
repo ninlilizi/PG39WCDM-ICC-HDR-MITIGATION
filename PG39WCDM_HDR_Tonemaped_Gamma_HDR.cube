@@ -3,7 +3,7 @@ DOMAIN_MIN 0.0 0.0 0.0
 DOMAIN_MAX 1.0 1.0 1.0
 LUT_3D_SIZE 65
 # HDR LUT using BT.2020 color space and SMPTE ST 2084 (PQ) encoding
-# Max luminance: 1000 cd/m²
+# Max luminance: 1300 cd/m²
 # Min luminance: 0.0007 cd/m²
 
 0.005154 0.005154 0.005154
