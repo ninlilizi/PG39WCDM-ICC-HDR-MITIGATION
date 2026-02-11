@@ -26,10 +26,6 @@ Additionally:
 * Saturation adjustment to 98%. (For primary accuracy)
 * Output custom .cube 3D LUTs with maximum number of steps to allow color accurate correction in professional softwares.
 
-The profiles were generated using a customized fork of ColorControl. If you wish to make your own iteration or examine the changes put into this custom profile, it is here: https://github.com/ninlilizi/ColorControl-PG39WCDM
-
-This tool was created to visualise the accurace of the PQ curve across selectable luminance levels https://github.com/ninlilizi/PqLumaCuveTestBars
-
 Contains:
 * PG39WCDM_HDR_Correction.icm - ICC profile
 * PG39WCDM_HDR_Correction_SDR.cube - SDR correction LUT (Rec.709 primaries)
@@ -43,3 +39,9 @@ The PNG LUT can be used with Reshades 'LUT' basic LUT shader if you wanted to co
 Either Apply the LUT at system level, or in an application. If you apply it twice you will over-correct.
 
 The .cube files are compatible with professional color pipelines and solutions. If you know how to use them, have fun. If not, you're not missing out on anything crucial. They serve niche needs.
+
+
+
+The profiles were generated using a customized fork of ColorControl. If you wish to make your own iteration or examine the changes put into this custom profile, it is here: https://github.com/ninlilizi/ColorControl-PG39WCDM
+
+This tool linked here was created to visualise the accurace of the PQ curve across selectable luminance levels: https://github.com/ninlilizi/PqLumaCuveTestBars
