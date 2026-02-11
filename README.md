@@ -44,7 +44,8 @@ The .cube files are compatible with professional color pipelines and solutions. 
 
 The profiles were generated using a customized fork of ColorControl. If you wish to make your own iteration or examine the changes put into this custom profile, it is here: https://github.com/ninlilizi/ColorControl-PG39WCDM
 
-This tool was created to visualise the accurace of the PQ curve: https://github.com/ninlilizi/PqLumaCuveTestBars
+This tool was created to visualise the accurace of the PQ curve: https://github.com/ninlilizi/PqLumaCurveTestBars
+
 
 
 
