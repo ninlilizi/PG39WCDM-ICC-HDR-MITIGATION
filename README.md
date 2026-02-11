@@ -7,25 +7,31 @@ One cavaet, is the LUT that performs most of the lifting doesn't apply automatic
 
 The ICC profile contains a custom LUT that adjust the gamma curve and combats desaturation in low luminance levels through progressive gamut expansion.
 
-* Set Digital Vibrance to 51%. We loose colour accuracy above this.
 
+Nvidia color settings:
+* Set Brightness to 50%.
+* Set Contrast to 50%.
+* Set Digital Vibrance to 50%. We loose colour accuracy above this.
 
 Additionally:
 
 * Customized gamma curve to mitigate the displays effective gamma being closer to 1.8 than the expected 2.2.
+* Custom handling so both PQ and Gamma content maintains a smooth curve through the toe (below 1nit).
+* Custom Rec2020 primaries adapted to the device's native color characteristics.
 * Upgrade profile version to MHC3 to support HDR specific parameters.
 * Default values set to optimal for the monitor.
 * Fixed MaxFALL to 265.
-* MaxCLL to 1300, MinCLL 0.0007.
-* Saturation boost to 15%.
+* MaxCLL to 1300, MinCLL 0.00248. (Lowest value the monitor can differentiate)
+* Contrast boost to 125%. (Corrects the 'washed-out' look and brings contrast in line with SDR mode)
+* Saturation adjustment to 98%. (For primary accuracy)
 * Output custom .cube 3D LUTs with maximum number of steps to allow color accurate correction in professional softwares.
 
 The profiles were generated using a customized fork of ColorControl. If you wish to make your own iteration or examine the changes put into this custom profile, it is here: https://github.com/ninlilizi/ColorControl-PG39WCDM
 
 Contains:
-* PG39WCDM_HDR_Tonemaped_Gamma.icm - ICC profile
-* PG39WCDM_HDR_Tonemaped_Gamma_SDR.cube - SDR correction LUT (Rec.709 primaries)
-* PG39WCDM_HDR_Tonemaped_Gamma_HDR.cube - HDR correction LUT (Rec.2020 primaries)
+* PG39WCDM_HDR_Correction.icm - ICC profile
+* PG39WCDM_HDR_Correction_SDR.cube - SDR correction LUT (Rec.709 primaries)
+* PG39WCDM_HDR_Correction_HDR.cube - HDR correction LUT (Rec.2020 primaries)
 * PG39WCDM_LUT-s16.png - 16x 3D correction LUT - PNG
 * PG39WCDM_LUT-s32.png - 32x 3D correction LUT - PNG
 * PG39WCDM_LUT-s16.dds - 16x 3D correction LUT - DDS (bc7, no mips)
