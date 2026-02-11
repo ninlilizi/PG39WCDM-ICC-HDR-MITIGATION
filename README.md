@@ -40,8 +40,8 @@ Either Apply the LUT at system level, or in an application. If you apply it twic
 
 The .cube files are compatible with professional color pipelines and solutions. If you know how to use them, have fun. If not, you're not missing out on anything crucial. They serve niche needs.
 
-
+---
 
 The profiles were generated using a customized fork of ColorControl. If you wish to make your own iteration or examine the changes put into this custom profile, it is here: https://github.com/ninlilizi/ColorControl-PG39WCDM
 
-This tool linked here was created to visualise the accurace of the PQ curve across selectable luminance levels: https://github.com/ninlilizi/PqLumaCuveTestBars
+This tool was created to visualise the accurace of the PQ curve: https://github.com/ninlilizi/PqLumaCuveTestBars
