@@ -23,7 +23,6 @@ Additionally:
 * Customized gamma curve to mitigate the displays effective gamma being closer to 1.8 than the expected 2.2.
 * Custom handling so both PQ and Gamma content maintains a smooth curve through the toe (below 1nit).
 * Custom Rec2020 primaries adapted to the device's native color characteristics.
-* Upgrade profile version to MHC3 to support HDR specific parameters.
 * Default values set to optimal for the monitor.
 * Fixed MaxFALL to 265.
 * MaxCLL to 1300, MinCLL 0.00248. (Lowest value the monitor can differentiate)
@@ -50,6 +49,7 @@ The .cube files are compatible with professional color pipelines and solutions. 
 The profiles were generated using a customized fork of ColorControl. If you wish to make your own iteration or examine the changes put into this custom profile, it is here: https://github.com/ninlilizi/ColorControl-PG39WCDM
 
 This tool was created to visualise the accurace of the PQ curve: https://github.com/ninlilizi/PqLumaCurveTestBars
+
 
 
 
