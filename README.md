@@ -8,10 +8,15 @@ One cavaet, is the LUT that performs most of the lifting doesn't apply automatic
 The ICC profile contains a custom LUT that adjust the gamma curve and combats desaturation in low luminance levels through progressive gamut expansion.
 
 
-Nvidia color settings:
+Nvidia color settings:  
 * Set Brightness to 50%.
 * Set Contrast to 50%.
 * Set Digital Vibrance to 50%. We loose colour accuracy above this.
+
+Windows settings:
+* I run with the SDR content brightness setting at 40, but I'm a sensory seaking lunatic. Somewhere between 20...40 might be better and this is a matter of personal preference.
+
+
 
 Additionally:
 
@@ -45,6 +50,7 @@ The .cube files are compatible with professional color pipelines and solutions. 
 The profiles were generated using a customized fork of ColorControl. If you wish to make your own iteration or examine the changes put into this custom profile, it is here: https://github.com/ninlilizi/ColorControl-PG39WCDM
 
 This tool was created to visualise the accurace of the PQ curve: https://github.com/ninlilizi/PqLumaCurveTestBars
+
 
 
 
