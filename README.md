@@ -74,10 +74,11 @@ Windows 11 has a bug where the MHC2 calibration pipeline fails to activate at st
 
 ## Related Projects
 
-- [ApplyIccLut](https://github.com/ninlilizi/ApplyIccLut) - Tool to force-apply ICC profiles at boot on Windows 11
 - [ColorControl-PG39WCDM](https://github.com/ninlilizi/ColorControl-PG39WCDM) - Customized fork of ColorControl used to generate this profile
 - [PqLumaCurveTestBars](https://github.com/ninlilizi/PqLumaCurveTestBars) - Tool for visualising the accuracy of the PQ curve
+- [ApplyIccLut](https://github.com/ninlilizi/ApplyIccLut) - Tool to force-apply ICC profiles at boot on Windows 11
 
 ## License
 
 MIT
+
