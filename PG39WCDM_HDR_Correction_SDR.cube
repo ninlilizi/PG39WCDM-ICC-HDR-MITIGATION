@@ -3,8 +3,8 @@ DOMAIN_MIN 0.0 0.0 0.0
 DOMAIN_MAX 1.0 1.0 1.0
 LUT_3D_SIZE 65
 # SDR LUT using sRGB/Rec.709 color space with gamma encoding
-# Max luminance: 100 cd/m²
-# Min luminance: 0 cd/m²
+# Max luminance: 100 cd/m�
+# Min luminance: 0 cd/m�
 # Companion SDR LUT for standard dynamic range workflows
 
 0.000000 0.000000 0.000000
